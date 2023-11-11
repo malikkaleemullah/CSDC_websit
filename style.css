@@ -76,6 +76,7 @@ span {
     display: flex;
     flex-direction: column;
     margin-top: 90px;
+    padding-left: 1rem;
 
 }
 .urgentNotice {
@@ -199,4 +200,35 @@ border: 1px solid rgba(36, 55, 123, 0.51);
 .button button:hover {
     background-color:#760AD4;
 }
+.into {
+    font-size: larger;
+    font-weight: 900;
+    text-shadow: 2px 1px cornflowerblue;
+}
+/*About Section */
 
+.history-and-message {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: space-between;
+}
+.history {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.chairman-message {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: fit-content;
+}
+.chairman-message img {
+    border-radius: 3rem;
+}
+.educational-programs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
