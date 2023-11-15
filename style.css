@@ -230,5 +230,36 @@ border: 1px solid rgba(36, 55, 123, 0.51);
 .educational-programs {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+.Undergraduate_Table {
+    width: 100%;
+    height: fit-content;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.Educational_programs {
+    text-align: center;
+    font-size:xx-large;
+    font-family: sans-serif;
+
+}
+.fee_structure {
+    display: flex;
+    flex-direction: column;
+}
+.fee-details {
+    display: none;
 }
