@@ -263,3 +263,37 @@ tr:nth-child(even) {
 .fee-details {
     display: none;
 }
+
+.burger-menu {
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.burger-icon {
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+}
+
+.fee-details {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.fee-details ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.fee-details li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.fee-details li:last-child {
+    border-bottom: none;
+}
