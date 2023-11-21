@@ -17,3 +17,10 @@ function toggleDetails(element) {
         element.innerHTML = "&#9776; Toggle Details";
     });
 }
+
+function toggleCourseDetails(tableId) {
+    var details = document.getElementById(tableId);
+    details.classList.toggle('show');
+}
+
+

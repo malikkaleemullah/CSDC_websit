@@ -13,7 +13,7 @@
             <div class="upper">
                 <a href="./index.html">Home</a>
                 <a href="./about.html">About</a>
-                <a class="into" href="./Courses.html">Educational Programs</a>
+                <a class="into" href="./Courses.html">Departments</a>
                 <a href="">Events</a>
                 <a href="">Given</a>
                 <input type="text" class="search-bar" placeholder="Search...">
@@ -35,11 +35,12 @@
     </header>
     <hr>
     <div class="mainContainer">
-        <div class="educational-programs">
-            <h1 class="Educational_programs">Educational Programs</h1>
-            <div class="undergraduate">
-                <h1 class="Undergraduate-Programs">Undergraduate Programs</h1>
-                <table class="Undergraduate_Table">
+        <div class="departments">
+            <h1 class="departments_heading">Departments</h1>
+
+            <div class="department" >
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_1')">Department of Botany</h1>                
+                <table id="course_details_1" class="course_details_Table">
                     <tr>
                         <th>Course</th>
                         <th>Duration</th>
@@ -48,18 +49,55 @@
                         <th>Fee Structure</th>
                     </tr>
                     <tr>
-                        <td>ADA</td>
-                        <td>Two Years</td>
+                        <td>ADS</td>
+                        <td>Two Years(4-Semesters)</td>
                         <td>University of Peshawar</td>
-                        <td>BA</td>
+                        <td>B.Sc</td>
                         <td>
                             <div class="burger-menu">
                                 <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
                                 <div class="fee-details">
                                     <ul>
-                                        <li>2000/semester</li>
-                                        <li>2000-admission</li>
-                                        <li>3000-exam fee</li>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+            </div>
+
+
+            <div class="department" >
+                
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_3')">Department of Computer Science</h1>                
+                <table id="course_details_3" class="course_details_Table">
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Affiliation</th>
+                        <th>Equivalency</th>
+                        <th>Fee Structure</th>
+                    </tr>
+                    <tr>
+                        <td>ADS</td>
+                        <td>Two Years(4-Semesters)</td>
+                        <td>University of Peshawar</td>
+                        <td>B.Sc(CS)</td>
+                        <td>
+                            <div class="burger-menu">
+                                <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
+                                <div class="fee-details">
+                                    <ul>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
                                     </ul>
                                 </div>
                             </div>
@@ -68,26 +106,102 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>ADS</td>
-                        <td>Two Years</td>
+                        <td>BS(CS)</td>
+                        <td>Two Years(4-Semesters)</td>
                         <td>University of Peshawar</td>
-                        <td>B.Sc</td>
+                        <td>Master</td>
                         <td>
                             <div class="burger-menu">
                                 <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
                                 <div class="fee-details">
                                     <ul>
-                                        <li>2000/semester</li>
-                                        <li>2000-admission</li>
-                                        <li>3000-exam fee</li>
+                                        <li>20000-admission</li>
+                                        <li>5000-monthly</li>
+                                        <li>15000-exam fee</li>
+                                        <li>2000-Registration</li>
                                     </ul>
                                 </div>
                             </div>
                         </td>
                     </tr>
                     <tr>
+                        <td>DIT</td>
+                        <td>One Years(2-Semesters)</td>
+                        <td>Peshawar Technical Board</td>
+                        <td>---</td>
+                        <td>
+                            <div class="burger-menu">
+                                <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
+                                <div class="fee-details">
+                                    <ul>
+                                        <li>2000-admission</li>
+                                        <li>1000-monthly</li>
+                                        <li>3000-exam fee</li>
+                                    </ul>
+                                </div>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>Frontend Development</td>
+                            <td>Two months</td>
+                            <td>College Certificate</td>
+                            <td>---</td>
+                            <td>5000/Course</td>
+                        </tr>
+                        <tr>
+                            <td>Python (Essential)</td>
+                            <td>Two months</td>
+                            <td>College Certificate</td>
+                            <td>---</td>
+                            <td>5000/Course</td>
+                        </tr>
+                        <tr>
+                            <td>Python (Advance)</td>
+                            <td>Three months</td>
+                            <td>College Certificate</td>
+                            <td>---</td>
+                            <td>7000/Course</td>
+                        </tr>
+                        <tr>
+                            <td>Networking (Essential)</td>
+                            <td>Two months</td>
+                            <td>College Certificate</td>
+                            <td>---</td>
+                            <td>5000/Course</td>
+                        </tr>
+                        <tr>
+                            <td>Networking (SRWE)</td>
+                            <td>Two months</td>
+                            <td>College Certificate</td>
+                            <td>---</td>
+                            <td>5000/Course</td>
+                        </tr>
+                        <tr>
+                            <td>CIT (General)</td>
+                            <td>Two months</td>
+                            <td>College Certificate</td>
+                            <td>---</td>
+                            <td>3000/Course</td>
+                        </tr>
+                    </table>
+            </div>
+
+
+
+            <div class="department" >
+                
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_4')">Department of Education</h1>                
+                <table id="course_details_4" class="course_details_Table">
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Affiliation</th>
+                        <th>Equivalency</th>
+                        <th>Fee Structure</th>
+                    </tr>
+                    <tr>
                         <td>ADE</td>
-                        <td>Two Years</td>
+                        <td>Two Years(4-Semesters)</td>
                         <td>University of Peshawar</td>
                         <td>BA</td>
                         <td>
@@ -95,18 +209,45 @@
                                 <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
                                 <div class="fee-details">
                                     <ul>
-                                        <li>2000/semester</li>
-                                        <li>2000-admission</li>
-                                        <li>3000-exam fee</li>
+                                        <li>8000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam</li>
                                     </ul>
                                 </div>
+                            </div>
+                            
+                            </div>
                         </td>
-                        </tr>
+                    </tr>
+                    <tr>
+                        <td>B.Ed</td>
+                        <td>1.5 Years(3-Semesters)</td>
+                        <td>University of Peshawar</td>
+                        <td>B.Sc</td>
+                        <td>
+                            <div class="burger-menu">
+                                <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
+                                <div class="fee-details">
+                                    <ul>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
                     </table>
             </div>
-            <div class="postgraduate">
-                <h1 class="Postgraduate Programs">Postgraduate Programs</h1>
-                <table class="Undergraduate_Table">
+
+
+
+            <div class="department" >
+                
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_5')">Department of History</h1>                
+                <table id="course_details_5" class="course_details_Table">
                     <tr>
                         <th>Course</th>
                         <th>Duration</th>
@@ -116,7 +257,7 @@
                     </tr>
                     <tr>
                         <td>ADA</td>
-                        <td>Two Years</td>
+                        <td>Two Years(4-Semesters)</td>
                         <td>University of Peshawar</td>
                         <td>BA</td>
                         <td>
@@ -124,17 +265,99 @@
                                 <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
                                 <div class="fee-details">
                                     <ul>
-                                        <li>2000/semester</li>
-                                        <li>2000-admission</li>
-                                        <li>3000-exam fee</li>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </td>
+                    </tr>
+                    </table>
+            </div>
+
+
+
+            <div class="department" >
+                
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_6')">Department of International Relations</h1>                
+                <table id="course_details_6" class="course_details_Table">
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Affiliation</th>
+                        <th>Equivalency</th>
+                        <th>Fee Structure</th>
+                    </tr>
+                    <tr>
+                        <td>ADA</td>
+                        <td>Two Years(4-Semesters)</td>
+                        <td>University of Peshawar</td>
+                        <td>BA</td>
+                        <td>
+                            <div class="burger-menu">
+                                <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
+                                <div class="fee-details">
+                                    <ul>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
                                     </ul>
                                 </div>
                             </div>
                         </td>
+                    </table>
+            </div>
+
+
+            <div class="department" >
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_7')">Department of Islamic Studies</h1>                
+                <table id="course_details_7" class="course_details_Table">
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Affiliation</th>
+                        <th>Equivalency</th>
+                        <th>Fee Structure</th>
+                    </tr>
+                    <tr>
+                        <td>ADA</td>
+                        <td>Two Years(4-Semesters)</td>
+                        <td>University of Peshawar</td>
+                        <td>BA</td>
+                        <td>
+                            <div class="burger-menu">
+                                <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
+                                <div class="fee-details">
+                                    <ul>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </table>
+            </div>
+
+
+            <div class="department" >
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_8')">Department of Mathematics</h1>                
+                <table id="course_details_8" class="course_details_Table">
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Affiliation</th>
+                        <th>Equivalency</th>
+                        <th>Fee Structure</th>
                     </tr>
                     <tr>
                         <td>ADS</td>
-                        <td>Two Years</td>
+                        <td>Two Years(4-Semesters)</td>
                         <td>University of Peshawar</td>
                         <td>B.Sc</td>
                         <td>
@@ -142,17 +365,33 @@
                                 <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
                                 <div class="fee-details">
                                     <ul>
-                                        <li>2000/semester</li>
-                                        <li>2000-admission</li>
-                                        <li>3000-exam fee</li>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
                                     </ul>
                                 </div>
                             </div>
                         </td>
                     </tr>
+                    </table>
+            </div>
+
+
+
+            <div class="department" >
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_9')">Department of Pakistan Studies</h1>                
+                <table id="course_details_9" class="course_details_Table">
                     <tr>
-                        <td>ADE</td>
-                        <td>Two Years</td>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Affiliation</th>
+                        <th>Equivalency</th>
+                        <th>Fee Structure</th>
+                    </tr>
+                    <tr>
+                        <td>ADA</td>
+                        <td>Two Years(4-Semesters)</td>
                         <td>University of Peshawar</td>
                         <td>BA</td>
                         <td>
@@ -160,80 +399,157 @@
                                 <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
                                 <div class="fee-details">
                                     <ul>
-                                        <li>2000/semester</li>
-                                        <li>2000-admission</li>
-                                        <li>3000-exam fee</li>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
                                     </ul>
                                 </div>
                             </div>
                         </td>
-                        </tr>
+                    </tr>
                     </table>
             </div>
-            <div class="technical">
-                <h1 class="Technical Skills">Technical Skills Programs</h1>
-                <table class="Undergraduate_Table">
+
+
+
+            <div class="department" >
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_10')">Department of Political Science</h1>                
+                <table id="course_details_10" class="course_details_Table">
                     <tr>
                         <th>Course</th>
                         <th>Duration</th>
                         <th>Affiliation</th>
+                        <th>Equivalency</th>
                         <th>Fee Structure</th>
                     </tr>
                     <tr>
-                        <td>DIT</td>
-                        <td>One Years</td>
-                        <td>Technical Board Peshawar</td>
+                        <td>ADA</td>
+                        <td>Two Years(4-Semesters)</td>
+                        <td>University of Peshawar</td>
+                        <td>BA</td>
                         <td>
                             <div class="burger-menu">
                                 <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
                                 <div class="fee-details">
                                     <ul>
-                                        <li>2000/semester</li>
-                                        <li>2000-admission</li>
-                                        <li>3000-exam fee</li>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
                                     </ul>
                                 </div>
                             </div>
                         </td>
                     </tr>
+                    </table>
+            </div>
+
+
+
+            <div class="department" >
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_11')">Department of Physics</h1>                
+                <table id="course_details_11" class="course_details_Table">
                     <tr>
-                        <td>CIT</td>
-                        <td>Six months</td>
-                        <td>College Certificate</td>
-                        <td>5000/Course</td>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Affiliation</th>
+                        <th>Equivalency</th>
+                        <th>Fee Structure</th>
                     </tr>
                     <tr>
-                        <td>Frontend development</td>
-                        <td>Two months</td>
-                        <td>College Certificate</td>
-                        <td>5000/Course</td>
-                    </tr>
-                    <tr>
-                        <td>Python Basic</td>
-                        <td>Two months</td>
-                        <td>College Certificate</td>
-                        <td>5000/Course</td>
-                    </tr>
-                    <tr>
-                        <td>Python Advance</td>
-                        <td>Two months</td>
-                        <td>College Certificate</td>
-                        <td>7000/Course</td>
-                    </tr>
-                    <tr>
-                        <td>Networking (ITN)</td>
-                        <td>Two months</td>
-                        <td>College Certificate</td>
-                        <td>5000/Course</td>
-                    </tr>
-                    <tr>
-                        <td>Networking (SRWE)</td>
-                        <td>Two months</td>
-                        <td>College Certificate</td>
-                        <td>5000/Course</td>
+                        <td>ADS</td>
+                        <td>Two Years(4-Semesters)</td>
+                        <td>University of Peshawar</td>
+                        <td>B.Sc</td>
+                        <td>
+                            <div class="burger-menu">
+                                <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
+                                <div class="fee-details">
+                                    <ul>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
                     </tr>
                     </table>
             </div>
+
+
+
+            <div class="department" >
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_12')">Department of Urdu</h1>                
+                <table id="course_details_12" class="course_details_Table">
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Affiliation</th>
+                        <th>Equivalency</th>
+                        <th>Fee Structure</th>
+                    </tr>
+                    <tr>
+                        <td>ADA</td>
+                        <td>Two Years(4-Semesters)</td>
+                        <td>University of Peshawar</td>
+                        <td>BA</td>
+                        <td>
+                            <div class="burger-menu">
+                                <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
+                                <div class="fee-details">
+                                    <ul>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+            </div>
+
+
+
+            <div class="department" >
+                <h1 class="department_heading" onclick="toggleCourseDetails('course_details_13')">Department of Zoology</h1>                
+                <table id="course_details_13" class="course_details_Table">
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Affiliation</th>
+                        <th>Equivalency</th>
+                        <th>Fee Structure</th>
+                    </tr>
+                    <tr>
+                        <td>ADS</td>
+                        <td>Two Years(4-Semesters)</td>
+                        <td>University of Peshawar</td>
+                        <td>B.Sc</td>
+                        <td>
+                            <div class="burger-menu">
+                                <span class="burger-icon" onmouseover="toggleDetails(this)">&#9776; Toggle Details</span>
+                                <div class="fee-details">
+                                    <ul>
+                                        <li>5000-semester admission</li>
+                                        <li>2000-monthly</li>
+                                        <li>2000-Registration</li>
+                                        <li>6000-exam fee</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+            </div>
+            
+            
+            <img class="course_end_image" src="./images/thanks.png" alt="" >
+
         </div>
     </div>
     <script src="./script.mjs"></script>

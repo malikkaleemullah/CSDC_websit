@@ -198,7 +198,7 @@ border: 1px solid rgba(36, 55, 123, 0.51);
     background-color: #24377B;
 }
 .button button:hover {
-    background-color:#760AD4;
+    background-color:#A8A8A8;
 }
 .into {
     font-size: larger;
@@ -227,11 +227,11 @@ border: 1px solid rgba(36, 55, 123, 0.51);
 .chairman-message img {
     border-radius: 3rem;
 }
-.educational-programs {
+.departments {
     display: flex;
     flex-direction: column;
 }
-.Undergraduate_Table {
+.course_details_Table {
     width: 100%;
     height: fit-content;
 }
@@ -250,11 +250,10 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-.Educational_programs {
+.departments_heading {
     text-align: center;
     font-size:xx-large;
     font-family: sans-serif;
-
 }
 .fee_structure {
     display: flex;
@@ -278,7 +277,7 @@ tr:nth-child(even) {
 .fee-details {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: #F5F5F5;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -291,9 +290,79 @@ tr:nth-child(even) {
 
 .fee-details li {
     padding: 8px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #F5F5F5;
 }
 
 .fee-details li:last-child {
     border-bottom: none;
+}
+
+
+
+
+/* table work */
+
+        /* Add your styles here */
+
+        .course_details_Table {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .course_details_Table.show {
+            display: table;
+            opacity: 1;
+        }
+
+        .course_details_Table th, .course_details_Table td {
+            border: 1px solid #F5F5F5;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .burger-menu {
+            position: relative;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .burger-icon, .department_heading {
+            cursor: pointer;
+            width: fit-content;
+            animation: fadeIn 1s ease-out;
+        }
+        .department_heading:hover{
+            text-decoration: underline;
+            color: #24377B;
+        }
+
+        .fee-details {
+            display: none;
+            position: absolute;
+            background-color: #F5F5F5;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            z-index: 1;
+        }
+
+    /* table works ends */
+
+.course_end_image {
+}
+.departments {
+    /* From https://css.glass */
+    background: rgba(36, 55, 123, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
 }
