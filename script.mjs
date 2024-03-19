@@ -23,4 +23,56 @@ function toggleCourseDetails(tableId) {
     details.classList.toggle('show');
 }
 
+// academic work
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Sample academic data
+    const academics = [
+        {
+            name: "John Doe",
+            pic: "https://via.placeholder.com/100",
+            edu: "Ph.D. in Computer Science, Stanford University"
+        },
+        {
+            name: "Jane Smith",
+            pic: "https://via.placeholder.com/100",
+            edu: "M.Sc. in Biology, Oxford University"
+        },
+        // Add more academic entries as needed
+    ];
+
+    const academicList = document.getElementById("academic-list");
+
+    // Render academic cards
+    academics.forEach(academic => {
+        const academicCard = document.createElement("div");
+        academicCard.classList.add("academic-card");
+
+        const pic = document.createElement("img");
+        pic.src = academic.pic;
+        pic.alt = academic.name;
+        pic.classList.add("academic-pic");
+        academicCard.appendChild(pic);
+
+        const info = document.createElement("div");
+        info.classList.add("academic-info");
+
+        const name = document.createElement("div");
+        name.textContent = academic.name;
+        name.classList.add("academic-name");
+        info.appendChild(name);
+
+        const edu = document.createElement("div");
+        edu.textContent = academic.edu;
+        edu.classList.add("academic-edu");
+        info.appendChild(edu);
+
+        academicCard.appendChild(info);
+
+        academicList.appendChild(academicCard);
+    });
+});
+
+// academic work end
+
 
