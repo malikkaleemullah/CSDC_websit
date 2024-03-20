@@ -485,3 +485,390 @@ nav ul li a {
 }
 
 /* about page */
+
+
+/* about campus page */
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg'); /* Specify your background image path */
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.campus_container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Drop shadow effect */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.campus-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.campus-item {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.campus-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* campus page end */
+
+
+/* shining starts */
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg'); /* Specify your background image path */
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.shining-stars_container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Drop shadow effect */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.shining-stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.star {
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.star img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.star h2 {
+    margin-bottom: 5px;
+}
+
+.star p {
+    color: #666;
+}
+/* shining starts end */
+
+
+/* events */
+
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg'); /* Specify your background image path */
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.event_container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Drop shadow effect */
+}
+
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.events {
+    margin-top: 20px;
+}
+
+.event {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.event h2 {
+    margin-bottom: 10px;
+}
+
+.event p {
+    margin-bottom: 5px;
+}
+
+.event p strong {
+    font-weight: bold;
+}
+
+/* events end */
+
+
+
+
+/* given continer */
+
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg'); /* Specify your background image path */
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.given_container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Drop shadow effect */
+}
+
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.events {
+    margin-top: 20px;
+}
+
+.event {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.event h2 {
+    margin-bottom: 10px;
+}
+
+.event p {
+    margin-bottom: 5px;
+}
+
+.event p strong {
+    font-weight: bold;
+}
+
+/* given end */
+
+
+/* apply and affort */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg'); /* Specify your background image path */
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.A_and_A_container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Drop shadow effect */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.events {
+    margin-top: 20px;
+}
+
+.event {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.event h2 {
+    margin-bottom: 10px;
+}
+
+.event p {
+    margin-bottom: 5px;
+}
+
+.event p strong {
+    font-weight: bold;
+}
+
+.event a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.event a:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* ap & af end */
