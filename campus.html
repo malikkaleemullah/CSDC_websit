@@ -16,8 +16,8 @@
                 <a href="./Courses.html">Departments</a>
                 <a href="./events.html">Events</a>
                 <a href="./given.html">Given</a>
-                <input type="text" class="search-bar" placeholder="Search...">
-
+                <input type="text" id="searchInput" placeholder="Search only in this page" oninput="search()">
+                <div id="searchResults"></div>
             </div>
             <div class="lower">
                 <div class="barIcons">
@@ -55,5 +55,7 @@
         </div>
 
     </div>
+    <script src="./script.mjs"></script>
+
 </body>
 </html>

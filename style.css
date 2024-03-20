@@ -130,7 +130,7 @@ span {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 0px;
-    border: solid #24377B;
+    border: solid #24377b1a;
     border-radius: 1rem;
     /* From https://css.glass */
 
@@ -156,15 +156,10 @@ backdrop-filter: blur(1.4px);
 -webkit-backdrop-filter: blur(1.4px);
 }
 .icon-image:hover {
-    background-color: #24377B;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
-    /* From https://css.glass
-background: rgba(36, 55, 123, 0.44);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.4px);
--webkit-backdrop-filter: blur(4.4px);
-border: 1px solid rgba(36, 55, 123, 0.51); */
+    background-color: #24377b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+    transition: 0.3s ;
+
 }
 .search-bar {
     width: 300px;
